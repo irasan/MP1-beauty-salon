@@ -1,45 +1,60 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+#Beauty Salon
 
-Welcome USER_NAME,
+This is a simple yet elegant website for a fictional beauty salon. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+##UX
 
-## Gitpod Reminders
+###Project goals
+The primary goal of the project is to provide a way of communication between beauty salons and their potential or current customers. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+###Customers' goals
+The main audience for this website consists of women in the age of 16-65 years old, and men in the age of 22-65 years old. These are people who like to look after themselves and avail of the wide range of beauty procedures.
 
-`python3 -m http.server`
+Customers goals are:
+* find information about location and contact details of the salon;
+* see the range of possible treatments and their prices;
+* book a treatment quickly and easily;
+* find out about people working their and see their previous work if applicable;
+* follow salon on social media.
 
-A blue button should appear to click: *Make Public*,
+This website helps its users to meet their needs because: 
+* the goals stated above were taken into consideration during all stages of the development process;
+* contact information is shown many times throughout the pages;
+* "Book now" button pops up often and appropriately;
+* navigation is traditional and intuitive.
 
-Another blue button should appear to click: *Open Browser*.
+###Business goals
+Beauty salons want to present themselves in the best light possible through showing professionalism of their team, and luxury colors on the website. 
+They want to get more clients, that's why quality of the website, pictures and availability of the contact details as well as instant booking option are vital.
+Salons also want to keep in touch with their clients, especially when they have sales or promotions.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Business goals are met because:
+* contact details (phone number, email, address) of the beauty salon are stated clearly and repeatedly, which makes it easier for customers to find them and get in touch;
+* introduction of salon's team of stylists and artists, and showcase of their previous work is nicely done;
+* there is a list of available treatments and prices broken down to sections;
+* social media icons shown in the footer. 
 
-A blue button should appear to click: *Make Public*,
+###User Stories
+As a client of a beauty salon, I want:
+* to be able to find contact info easily;
+* to book an appointment/treatment quickly;
+* a variety of different contact options available, e.g. phone, email, socail media;
+* to find out about available treatments and their prices;
+* a visually appealing website that will prove professionalism and good taste of the salon;
+* to see prove that other clients were happy with the service and their pictures.
 
-Another blue button should appear to click: *Open Browser*.
+###Design choices
+The overall feel of the website is one that shows luxury and high professionalism. The following design choices were made with this in mind:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+####Fonts
 
-## Updates Since The Instructional Video
+####Icons
+All icons were chosen for their obvious meaning so that they can be easily understood by everyone.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+####Colors
+Dark esmerald, gold and black colors were chosen for their feel of luxury
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+####Styling
+Buttons and form fields were given rounded corners to soften the stictness.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+####Backgrounds
