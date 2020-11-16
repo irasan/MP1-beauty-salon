@@ -19,7 +19,6 @@ body {
 /* --------------------------- Special margins/text */
 h1 {
   font-family: "Italiana", serif;
-  font-weight: 200;
 }
 
 h1,
@@ -37,25 +36,26 @@ h4 {
 /* --------------------------- Header */
 header {
   font-family: "Playfair", serif !important;
-  font-size: 22px;
+  font-size: 24px;
   color: #154232;
   text-decoration: none;
 }
 
 .logo {
   font-family: "Italiana", serif;
-  font-weight: 400;
-  font-size: 28px;
+  font-size: 2.5vw;
   color: #154232;
   text-align: center;
 }
 
 .navbar-nav a {
   color: #154232;
+  padding: 10px 0;
 }
 
-.navbar-nav span {
-  margin-left: 10px;
+.navbar-nav p {
+  margin-left: 20px;
+  padding: 10px 0;
 }
 
 /* --------------------------- How to find us (contact section)*/
@@ -66,7 +66,7 @@ header {
 }
 
 .section-row p {
-  font-size: 18px;
+  font-size: 26px;
   padding: 20px 0;
 }
 
@@ -79,56 +79,30 @@ header {
 }
 
 /* --------------------------- Meet our team (pictures overlay)*/
+.simple-overlay{
+    color: #daa520;
+text-align: center;
+}
+
+.simple-overlay img{
+    padding: 20px o;
+border: 5px solid #daa520;
+justify-content: center;
+width: 80%;
+}
+
+.simple-overlay h2 {
+padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.simple-overlay button {
+margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .image-overlay {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  position: relative;
-}
-
-.image-overlay__item--top {
-  grid-column: 2 / span 4;
-  padding-top: 70%;
-  grid-row: 1;
-  z-index: 3;
-  text-align: center;
-}
-
-.image-overlay__item--top h2 {
-  padding-bottom: 20px;
-  font-weight: 400;
-}
-
-.image-overlay__item--top p {
-  padding-bottom: 20px;
-  font-size: 22px;
-}
-
-.image-overlay__item--medium {
-  grid-column: 2 / span 4;
-  grid-row: 1;
-  padding-top: 60%;
-  z-index: 2;
-}
-
-.image-overlay__item--bottom {
-  grid-column: 5 / span 6;
-  grid-row: 1;
-  z-index: 1;
-}
-
-.image-overlay img {
-  width: 100%;
-  display: block;
-}
-
-#medium-image {
-  padding-bottom: 120px;
-}
-
-#bottom-image {
-  border: 5px solid #daa520;
+  display: none;
 }
 
 /* --------------------------- Footer */
@@ -151,6 +125,7 @@ height: 160px;
   text-align: center;
   padding: 0;
   margin: 0;
+  vertical-align: middle;
 }
 
 .footer-items a i {
@@ -167,13 +142,72 @@ height: 160px;
 }
 
 .table-row {
-    font-weight: 300;
-    height: 80px;
+    font-family: "Playfair", serif;
+    font-weight: bold;
+    font-size: 24px;
+    height: 120px;
     margin: 0 auto;
-    padding-bottom: 50px;
+    padding: 30px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    letter-spacing: 1px;
     width: 100%;
+}
+
+@media (min-width:1120px) {
+    .simple-overlay{
+        display: none;
+    }
+
+    .image-overlay {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+}
+
+.image-overlay__item--top {
+  grid-column: 2 / span 4;
+  padding-top: 70%;
+  grid-row: 1;
+  z-index: 3;
+  text-align: center;
+
+}
+
+.image-overlay__item--top h2 {
+  padding-bottom: 20px;
+  font-size: 3vw;
+}
+
+.image-overlay__item--top p {
+  padding-bottom: 20px;
+  font-size: 2.1vw;
+}
+
+.image-overlay__item--medium {
+  grid-column: 2 / span 4;
+  grid-row: 1;
+  padding-top: 60%;
+  z-index: 2;
+}
+
+.image-overlay__item--bottom {
+  grid-column: 5 / span 6;
+  grid-row: 1;
+  z-index: 1;
+}
+
+.image-overlay img {
+  width: 100%;
+  display: block;
+  
+}
+
+#bottom-image {
+  border: 5px solid #daa520;
+}
 }
