@@ -12,6 +12,10 @@
   background-color: #154232;
 }
 
+.bg-color-priceguide {
+    background-color: #154232;
+}
+
 body {
   font-family: "Playfair", serif;
 }
@@ -46,6 +50,11 @@ header {
   font-size: 2.5vw;
   color: #154232;
   text-align: center;
+}
+
+.navbar button {
+    color: #154232;
+    appearance: button;
 }
 
 .navbar-nav a {
@@ -117,23 +126,24 @@ footer {
   font-size: 38px;
   color: #154232;
   text-align: center;
-  padding: 25px 0 25px 20px;
+  padding: 25px 20px;
 }
 
 .footer-items {
 height: 160px;
+min-width: 153px;;
   text-align: center;
   padding: 0;
-  margin: 0;
+  margin: 0 20px;
   vertical-align: middle;
+  justify-content: center;
+  width: 100%;
 }
 
-.footer-items a i {
-    padding-top: 22px;
-    padding-left: 10px;
-  display: block;
+.footer-items i {
+  display: inline-block;
   color: #154232;
-  font-size: 26px;
+  font-size: 18px;
 }
 
 .footer-items h2 {
@@ -141,7 +151,7 @@ height: 160px;
     padding-bottom: 20px;
 }
 
-.table-row {
+.last-footer-item {
     font-family: "Playfair", serif;
     font-weight: bold;
     font-size: 24px;
@@ -155,6 +165,25 @@ height: 160px;
     letter-spacing: 1px;
     width: 100%;
 }
+
+/* --------------------------- Priceguide */
+.priceguide {
+    width: 70%;
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+.priceguide-heading {
+text-align: center;
+padding: 20px;
+color: #fff;
+}
+
+.bg-color-priceguide table {
+background-color: #fff;
+margin-bottom: 0;
+}
+
 
 @media (min-width:1120px) {
     .simple-overlay{
