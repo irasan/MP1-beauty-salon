@@ -37,37 +37,37 @@ hr {
     border: 1px solid #daa520;
     width: 60%;
     border-radius: 5px;
+    margin: 0 auto;
 }
 
 /* --------------------------- Header */
 header {
   font-family: "Playfair", serif !important;
   font-size: 24px;
-  color: #154232;
   text-decoration: none;
 }
 
 .logo {
   font-family: "Italiana", serif;
   font-size: 3.0vw;
-  color: #154232;
+  color: #111;
   text-align: center;
 }
 
 .navbar button {
-    color: #154232;
+    color: #042920;
     appearance: button;
 }
 
-.navbar-nav a {
-  color: #154232;
-  padding: 10px 0;
+.navbar-light .navbar-nav .nav-link {
+  color: #042920;
 }
 
-.navbar-nav p {
+.navbar-light .navbar-text {
   margin-left: 20px;
-  padding: 10px 0;
+  
   margin-top: 0;
+  color: #042920;
 }
 
 /* --------------------------- How to find us (contact section)*/
@@ -117,6 +117,7 @@ margin-top: 20px;
   display: none;
 }
 
+/* --------------------------- Team page */
 .team-general {
     text-align: center;
     padding-bottom: 50px;
@@ -129,34 +130,44 @@ margin-top: 20px;
 }
 
 .team-general h1 {
-    color:  #daa520;
+    color:  #111;
+    padding-bottom: 30px;
 }
 
 .team-members{
-background-color: #154232;
+background-color: #154232; 
+}
+
+.team-members h1, h2, h4 {
+    color: #daa520;
+text-shadow: 2px 4px 3px #111;
+}
+
+.team-members h4 {
+padding-bottom: 30px;
 }
 
 .text-first {
 text-align: right;
-color: #daa520;
-padding: 50px 80px 50px 80px;
+color: #ffd66e;
+padding: 20px 30px 20px 30px;
 }
 
 .text-first img {
-width: 60%;
+width: 80%;
 margin-left: 60px;
 float: left;
 }
 
 .picture-first {
 text-align: left;
-color: #daa520;
-padding: 50px 80px 50px 80px;
+color: #ffd66e;
+padding: 20px 30px 20px 30px;
+
 }
 
 .picture-first img {
-width: 60%;
-padding-bottom: 80px;
+width: 80%;
 margin-right: 60px;
 float: right;
 }
@@ -171,7 +182,7 @@ footer {
   font-family: "Italiana", serif;
   font-weight: 400;
   font-size: 38px;
-  color: #154232;
+  color: #111;
   text-align: center;
   padding: 25px 20px;
 }
@@ -189,7 +200,7 @@ min-width: 153px;;
 
 .footer-items i {
   display: inline-block;
-  color: #154232;
+  color: #042920;
   font-size: 18px;
 }
 
@@ -228,10 +239,14 @@ color: #fff;
 
 .bg-color-priceguide table {
 background-color: #fff;
-margin-bottom: 0;
+margin-bottom: 30px;
 }
 
+.jumbotron {
+    margin-bottom: 0;
+}
 
+/* --------------------------- Image overlay on larger screens */
 @media (min-width:1120px) {
     .simple-overlay{
         display: none;
@@ -288,12 +303,66 @@ margin-bottom: 0;
 }
 }
 
-@media (min-width: 768px) and (max-width: 1600px) {
-.picture-first img {
-    width: 90%;
+/* --------------------------- Team on medium screens */
+@media (min-width: 576px) and (max-width: 1200px) {
+.team-members{
+    padding-left: 60px;
+    padding-right: 60px;
+}  
+    
+    .picture-first img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
 }
 
 .text-first img {
-    width: 90%;
+    width: 80%;
+     margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+}
+}
+
+/* --------------------------- Team on larger screens */
+@media (min-width: 1200px) {
+.team-members{
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 1.4vw;
+}
+
+.team-members h4 {
+padding-bottom: 40px;
+}
+
+.picture-first img {
+    width: 80%;
+}
+
+.text-first img {
+    width: 80%;
+}
+} 
+
+/* --------------------------- Team on XXL screens */
+@media (min-width: 1600px) {
+.team-members{
+    padding-left: 160px;
+    padding-right: 160px;
+    font-size: 1.2vw;
+}
+
+.team-members h4 {
+padding-bottom: 40px;
+}
+
+.picture-first img {
+    width: 60%;
+}
+
+.text-first img {
+    width: 60%;
 }
 }
