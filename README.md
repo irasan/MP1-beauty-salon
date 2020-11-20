@@ -62,9 +62,10 @@ Buttons and form fields were given rounded corners to soften the stictness.
 ## Credits
 
 ### Content
+Text for the website was borrowed from two real beauty salons [Moyo](https://moyo.ie/team/) and [La Mode](https://lamode.ie/meet-the-team/)
 
 ### Media
-All photos for this project were obtained from [Pexels] (https://www.pexels.com/)
+All photos for this project were obtained from [Pexels](https://www.pexels.com/)
 
 ### Borrowed Code 
-To understand implementation of overlayed pictures, explanations were taken from [Bri-blog] (https://bricampgomez.com/blog/how-to-overlap-images-in-css/)
+To understand implementation of overlayed pictures, explanations were taken from [Bri-blog](https://bricampgomez.com/blog/how-to-overlap-images-in-css/)
