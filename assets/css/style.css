@@ -80,7 +80,8 @@ header {
 }
 
 .yellow-section a {
-  margin-left: 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* --------------------------- Meet our team (pictures overlay)*/
@@ -165,13 +166,16 @@ header {
 /* --------------------------- Contact page */
 .green-section {
   color: #ffd66e;
+  font-size: 24px;
   padding: 30px 15px 30px 15px;
   float: none;
 }
 
 .green-section i {
   font-size: 26px;
-  padding: 20px 0;
+  padding: 20px;
+  color: #daa520;
+  text-shadow: 2px 4px 3px #111;
 }
 
 .green-section div {
@@ -187,6 +191,7 @@ header {
   color: #daa520;
   text-shadow: 2px 4px 3px #111;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 /* --------------------------- Footer */
@@ -204,7 +209,7 @@ footer {
 
 .footer-items {
   height: 160px;
-  min-width: 160px;
+  min-width: 174px;
   text-align: center;
   padding: 0;
   vertical-align: middle;
@@ -260,6 +265,7 @@ footer {
   margin-bottom: 0;
   background-color: #111;
   color: #ffd66e;
+  text-align: center;
 }
 
 .jumbotron h1 {
@@ -321,7 +327,13 @@ footer {
   }
 }
 
-/* --------------------------- Team on medium screens */
+/* --------------------------- Different screens */
+@media (max-width: 768px) {
+  .navbar-light .navbar-text {
+    display: none !important;
+  }
+}
+
 @media (min-width: 576px) and (max-width: 1200px) {
   .logo {
     font-size: 26px;
@@ -336,14 +348,12 @@ footer {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 20px;
   }
 
   .text-first img {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
   }
 }
 
