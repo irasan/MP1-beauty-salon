@@ -79,29 +79,39 @@ All photos for this project were obtained from [Pexels](https://www.pexels.com/)
 ### Borrowed Code 
 To understand implementation of overlayed pictures, explanations were taken from [Bri-blog](https://bricampgomez.com/blog/how-to-overlap-images-in-css/)
 
-##How To Run This Project Locally
-To clone this project into GitHub, you will need:
-* A GitHub account. Create your GitHub account [here]()
-* Use the Chrome brouser
 
-Then follow these steps:
-1. Install the GitPod browser extentions for Chrome.
-1. Restart the browser.
-1. Log into GitPod using your GitHub account.
-1. Navigate to the project GitHub repository.
-1. Click the green "GitPod" button in the top right corner.
-1. This will trigger a new GitPod workspace to be created from the code in GitHub where you can work locally.
+## Features
+This website features four pages: Home, Team, Services, and Contact. 
+Home page presents a gallery of pictures of different work done in the Beauty Salon. 
+It also has a section with salon's address and opening hours together with a call to action button which leads to Contact page. 
+Another section displays a photo of the team of the salon with a call to action button which leads to the Team page. 
 
-To work on the project code within the local IDE:
-1. Navigate to the project GitHub repository.
-1. Click "Clone or Download".
-1. Copy Clone's URL for the repository.
-1. Open the terminal in your local IDE.
-1. Change the current working directory to the location where you want the clone directory to be made.
-1. Type git clone and then paste the URK from the step 3.
-1. Press Enter and your local clone will be created.
+Team page shows a photo of the salon's team as well as individual pictures of every stylist working there together with key points of their experience and specialization.
+At the bottom of the page there is a banner that invites to visit Contact page for booking.
 
-##Testing
+Services page lists all treatments available in the salon with their prices. 
+At the bottom of the page there is a banner that invites to visit Contact page for booking.
+
+Contact page displays all contact information of the salon (address, email, phone number, opening hours) and a form for contacting the salon through the website.
+
+Every page a header with navigation bar which collaps to a button on small screen, as well as a footer that shows salon's logo, socail meadia links, contact details, and opening hours.
+
+### Existing Features
+Feature 1 - allows users X to achieve Y, by having them fill out Z
+...
+
+### Features Left to Implement
+A section with clients' reviews is left for future development. 
+It will sit on the Home page allowing new visitors of the website and potential clients to make a favourable decion easier.
+
+
+## Technologies Used
+During completion of this project mainly HTML and CSS were used. To implement some more advanced components, like header, footer, carousel, tables, contact form 
+and complex layout, the developer made use of Bootstrap 4.
+To create the project, in particular write the code itself and store it, GitPod and GitHub were used.
+Deployment of the website was supported by GitHub pages.
+
+## Testing
 The developer used W3C Css Validation service and W3C MarkUp Validation Service to check the validity of the code.
 
 ###Client Stories Testing
@@ -113,7 +123,7 @@ Home page has two call to action buttons which lead to Team page and Contact pag
 
 Return clients won't necesseraly need to scroll down the pages or use the contact form. Salon's telephone number is stated right on top for their convenience.
 
-###Testing ckient stories from UX section in README.md 
+### Testing ckient stories from UX section in README.md 
 As a new visitor to the website, I want to navigate easily and find all the information needed:
 * layout of the website is traditional, consistent and intuitive;
 * logo image always leads to the home page;
@@ -144,3 +154,35 @@ As a potential or return client of the salon, I want to be able to find contact 
 As a return client of the salon, I want to find a name of the stylist who treated me before:
 * Team page shows pictures of all stylists who work in the salon and their name and story.
 
+## How To Run This Project Locally
+To clone this project into GitHub, you will need:
+* A GitHub account. Create your GitHub account [here]()
+* Use the Chrome brouser
+
+Then follow these steps:
+1. Install the GitPod browser extentions for Chrome.
+1. Restart the browser.
+1. Log into GitPod using your GitHub account.
+1. Navigate to the project GitHub repository.
+1. Click the green "GitPod" button in the top right corner.
+1. This will trigger a new GitPod workspace to be created from the code in GitHub where you can work locally.
+
+To work on the project code within the local IDE:
+1. Navigate to the project GitHub repository.
+1. Click "Clone or Download".
+1. Copy Clone's URL for the repository.
+1. Open the terminal in your local IDE.
+1. Change the current working directory to the location where you want the clone directory to be made.
+1. Type git clone and then paste the URK from the step 3.
+1. Press Enter and your local clone will be created.
+
+
+## Credits
+### Content
+Text for the website was borrowed from two real beauty salons [Moyo](https://moyo.ie/team/) and [La Mode](https://lamode.ie/meet-the-team/)
+
+### Media
+All photos for this project were obtained from [Pexels](https://www.pexels.com/)
+
+### Borrowed Code 
+To understand implementation of overlayed pictures, explanations were taken from [Bri-blog](https://bricampgomez.com/blog/how-to-overlap-images-in-css/)
