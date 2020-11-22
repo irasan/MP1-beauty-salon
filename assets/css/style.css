@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Playfair+Display:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@100;200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
 
 /* --------------------------- Background colors */
 .bg-color-yellow {
@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "Playfair", serif;
+  font-family: "Montserrat", serif;
 }
 
 /* --------------------------- Special margins/text */
@@ -35,7 +35,7 @@ hr {
 
 /* --------------------------- Header */
 header {
-  font-family: "Playfair", serif !important;
+  font-family: "Montserrat", serif !important;
   font-size: 24px;
   text-decoration: none;
 }
@@ -56,15 +56,20 @@ header {
   color: #042920;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+  color: #080808;
+}
+
 .navbar-light .navbar-text {
   margin-left: 20px;
   margin-top: 0;
-  color: #042920;
+  color: #080808;
 }
 
 /* --------------------------- How to find us (contact section)*/
 .yellow-section {
-  color: #154232;
+  color: #080808;
   padding: 30px 15px 30px 15px;
   float: none;
 }
@@ -166,6 +171,7 @@ header {
 /* --------------------------- Contact page */
 .green-section {
   color: #ffd66e;
+  font-weight: 300;
   font-size: 24px;
   padding: 30px 15px 30px 15px;
   float: none;
@@ -175,7 +181,7 @@ header {
   font-size: 26px;
   padding: 20px;
   color: #daa520;
-  text-shadow: 2px 4px 3px #111;
+  text-shadow: 2px 4px 3px #080808;
 }
 
 .green-section div {
@@ -189,22 +195,39 @@ header {
 
 .green-section h1 {
   color: #daa520;
-  text-shadow: 2px 4px 3px #111;
-  padding-bottom: 30px;
+  text-shadow: 2px 4px 3px #080808;
+  padding-bottom: 10px;
   text-align: center;
+}
+
+.green-section h3 {
+    padding: 20px 0;
+}
+
+.contact-form{
+    margin-top: 60px;
+}
+
+.form-group{
+    margin-top: 20px;
 }
 
 /* --------------------------- Footer */
 footer {
-  color: #343a40;
+  color: #1F1F1F;
+  font-family: "Montserrat", serif;
 }
 
 .footer-logo {
   font-weight: 400;
   font-size: 38px;
-  color: #111;
+  color: #080808;
   text-align: center;
   padding: 25px 20px;
+}
+
+.footer-logo:hover {
+color: #042920;
 }
 
 .footer-items {
@@ -219,7 +242,7 @@ footer {
 
 .footer-items i {
   display: inline-block;
-  color: #042920;
+  color: #1F1F1F;
   font-size: 18px;
 }
 
@@ -228,19 +251,25 @@ footer {
   padding-bottom: 20px;
 }
 
-.last-footer-item {
-  font-family: "Playfair", serif;
-  font-weight: bold;
-  font-size: 24px;
-  height: 120px;
-  margin: 0 auto;
-  padding: 30px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.social-icons li a i {
+  width: 36px;
+  height: 36px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 22px;
+  line-height: 12px;
   text-align: center;
-  letter-spacing: 1px;
-  width: 100%;
+  color: #042920;
+  background: transparent;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-icons li a i:hover {
+  background: #154232;
+  color: #ffd66e;
 }
 
 /* --------------------------- Priceguide */
@@ -263,7 +292,7 @@ footer {
 
 .jumbotron {
   margin-bottom: 0;
-  background-color: #111;
+  background-color: #080808;
   color: #ffd66e;
   text-align: center;
 }
@@ -296,12 +325,12 @@ footer {
 
   .image-overlay__item--top h2 {
     padding-bottom: 20px;
-    font-size: 3vw;
+    font-size: 2.8vw;
   }
 
   .image-overlay__item--top p {
     padding-bottom: 20px;
-    font-size: 2.1vw;
+    font-size: 1.8vw;
   }
 
   .image-overlay__item--medium {
@@ -332,6 +361,25 @@ footer {
   .navbar-light .navbar-text {
     display: none !important;
   }
+
+  .green-section {
+  font-size: 18px;
+}
+
+.green-section i {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.green-section h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+@media (min-width: 576px){
+.empty-space{
+    height: 480px;
+}
 }
 
 @media (min-width: 576px) and (max-width: 1200px) {
@@ -355,6 +403,10 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .empty-space{
+    height: 200px;
+}
 }
 
 /* --------------------------- Team on larger screens */
