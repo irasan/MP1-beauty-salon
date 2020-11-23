@@ -54,8 +54,6 @@ As a return client of the salon, I want:
 * to be able to find salon's address easily;
 * to find a name of the stylist who treated me before.
 
-As a business owner:
-
 ### Design choices
 The overall feel of the website is one that shows luxury and high professionalism. The following design choices were made with this in mind:
 
@@ -72,7 +70,6 @@ Dark esmerald, gold and black colors were chosen for their feel of luxury. Some 
 
 #### Styling
 Buttons and form fields were given rounded corners to soften the strictness, however they don't look to0 rounded so that the feel of the website remains luxury, not play.
-
 
 
 ## Features
@@ -92,10 +89,10 @@ Contact page displays all contact information of the salon (address, email, and 
 Every page has a header with navigation bar which collaps to a button on small screens, as well as a footer that shows salon's logo, socail meadia links, contact details, and opening hours.
 
 ### Existing Features
-Header (navigation bar) - allows users to navigate through the pages of the website. It collapses to a button on small screens.
-Gallery of pictures implemented through Bootstrap carousel - allows users to slide through the pictures of work dony by the salon's stylists.
-Call for action buttons on the key points of user's decision making - helps users to navigate to the needed page quickly by simply clicking the button.
-Contact form - allows users to leave a question, request to book or callback.
+* Header (navigation bar) - allows users to navigate through the pages of the website. It collapses to a button on small screens.
+* Gallery of pictures implemented through Bootstrap carousel - allows users to slide through the pictures of work dony by the salon's stylists.
+* Call for action buttons on the key points of user's decision making - helps users to navigate to the needed page quickly by simply clicking the button.
+* Contact form - allows users to leave a question, request to book or callback.
 
 ### Features Left to Implement
 * A section with clients' reviews is left for future development. It will sit on the Home page allowing new visitors of the website and potential clients to make a favourable decision easier.
@@ -108,8 +105,16 @@ and complex layouts, the developer made use of Bootstrap 4.
 To create the project, in particular write the code itself and store it, GitPod and GitHub were used.
 Deployment of the website was supported by GitHub pages.
 
+
 ## Testing
-The developer used W3C Css Validation service and W3C MarkUp Validation Service to check the validity of the code.
+
+### Testing Using Validators
+The website was continuously tested on emulated large and small screens when writing the code.
+Upon completion of the writing process, developer used [W3C Css Validation Service](https://jigsaw.w3.org/css-validator/) and [W3C MarkUp Validation Service](https://validator.w3.org/) to check the validity of the code.
+Some errors were detected at first, but fixed by the developer. For example, when checking HTML code, the validator warned about a paragraph used as a list item in header. 
+It was fixed by adding li tags around that paragraph.
+
+CSS validator found some lines of code that were not used, that's why they were removed completely by the developer.
 
 ### Client Stories Testing
 Most common path through the website:
@@ -151,6 +156,21 @@ As a potential or return client of the salon, I want to be able to find contact 
 As a return client of the salon, I want to find a name of the stylist who treated me before:
 * Team page shows pictures of all stylists who work in the salon and their names and stories.
 
+### Testing on Different Browsers and Devices
+The website was tested on the different browsers and proved to be issue-free. Those browsers include:
+* Chrome;
+* Safari;
+* Edge;
+* Firefox.
+
+The website was also tested on an IOS (Iphone 10) and Android (Pixel 4) platforms.
+
+### Testing on Potential Website Visitors 
+A group of potential website visitors were invited to test the website on their phones and laptops. The users were in the age gap between 30 and 65 years old.
+The feedback regarding usability was very positive. However a few users pointed out that the colors chosen for the website weren't exactly matching a beauty salon style. 
+They suggested different options fom pastel to grey and purple combinations. 
+
+
 ## How To Run This Project Locally
 To clone this project into GitHub, you will need:
 * A GitHub account. Create your GitHub account [here](https://github.com/)
@@ -186,4 +206,4 @@ All photos for this project were obtained from [Pexels](https://www.pexels.com/)
 Code for Bootstrap components, such as nav-bar, form, and tables was taken from [Bootstap documentation](https://getbootstrap.com/docs/4.5/components/).
 To understand implementation of overlayed pictures on Home page, explanations were taken from [Bri-blog](https://bricampgomez.com/blog/how-to-overlap-images-in-css/).
 [StackOverflow](https://stackoverflow.com/) and [W3School](https://www.w3schools.com/css/]) were used when dealing with some specific issues. 
-In particular, alligning items to the right in the dropdown menu on the collapse button in the header, the solution was found [here](https://stackoverflow.com/questions/41513463/bootstrap-4-align-navbar-items-to-the-right).
+In particular, when alligning items to the right in the dropdown menu on the collapse button in the header, the solution was found [here](https://stackoverflow.com/questions/41513463/bootstrap-4-align-navbar-items-to-the-right).
