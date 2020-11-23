@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@100;200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:wght@100;200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+
+*::selection {
+  background-color: #ffd66e;
+  color: black;
+}
 
 /* --------------------------- Background colors */
 .bg-color-yellow {
@@ -20,6 +25,7 @@ h3,
 h4 {
   margin: 0;
   font-family: "Italiana", serif;
+  letter-spacing: 1px;
 }
 
 .inline-block {
@@ -29,7 +35,6 @@ h4 {
 hr {
   border: 1px solid #daa520;
   width: 60%;
-  border-radius: 5px;
   margin: 0 auto;
 }
 
@@ -47,11 +52,6 @@ header {
   text-align: center;
 }
 
-.navbar button {
-  color: #042920;
-  appearance: button;
-}
-
 .navbar-light .navbar-nav .nav-link {
   color: #042920;
 }
@@ -65,6 +65,17 @@ header {
   margin-left: 20px;
   margin-top: 0;
   color: #080808;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+  border-color: #ffd66e;
+  background-color: #daa520;
+  outline: none;
 }
 
 /* --------------------------- How to find us (contact section)*/
@@ -96,9 +107,7 @@ header {
 }
 
 .simple-overlay img {
-  padding: 20px o;
   border: 5px solid #daa520;
-  justify-content: center;
   width: 80%;
 }
 
@@ -123,7 +132,7 @@ header {
 
 .team-general img {
   width: 80%;
-  margin: 30px auto;
+  margin: 60px auto;
   border: 5px solid #daa520;
 }
 
@@ -201,20 +210,20 @@ header {
 }
 
 .green-section h3 {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
-.contact-form{
-    margin-top: 60px;
+.contact-form {
+  margin-top: 60px;
 }
 
-.form-group{
-    margin-top: 20px;
+.form-group {
+  margin-top: 20px;
 }
 
 /* --------------------------- Footer */
 footer {
-  color: #1F1F1F;
+  color: #1f1f1f;
   font-family: "Montserrat", serif;
 }
 
@@ -227,7 +236,7 @@ footer {
 }
 
 .footer-logo:hover {
-color: #042920;
+  color: #042920;
 }
 
 .footer-items {
@@ -236,13 +245,13 @@ color: #042920;
   text-align: center;
   padding: 0;
   vertical-align: middle;
-  justify-content: center;
+
   width: 100%;
 }
 
 .footer-items i {
   display: inline-block;
-  color: #1F1F1F;
+  color: #1f1f1f;
   font-size: 18px;
 }
 
@@ -261,10 +270,6 @@ color: #042920;
   text-align: center;
   color: #042920;
   background: transparent;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
 }
 
 .social-icons li a i:hover {
@@ -363,23 +368,24 @@ color: #042920;
   }
 
   .green-section {
-  font-size: 18px;
-}
+    font-size: 18px;
+  }
 
-.green-section i {
-  font-size: 20px;
-  padding: 8px;
-}
+  .green-section i {
+    font-size: 20px;
+    padding: 8px;
+  }
 
-.green-section h3 {
+  .green-section h3 {
     font-size: 24px;
     text-align: center;
+  }
 }
 
-@media (min-width: 576px){
-.empty-space{
+@media (min-width: 576px) {
+  .empty-space {
     height: 480px;
-}
+  }
 }
 
 @media (min-width: 576px) and (max-width: 1200px) {
@@ -404,9 +410,9 @@ color: #042920;
     margin-right: auto;
   }
 
-  .empty-space{
+  .empty-space {
     height: 200px;
-}
+  }
 }
 
 /* --------------------------- Team on larger screens */
