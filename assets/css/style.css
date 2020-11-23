@@ -3,6 +3,7 @@
 *::selection {
   background-color: #ffd66e;
   color: #111;
+  text-shadow: none;
 }
 
 /* --------------------------- Background colors */
@@ -56,7 +57,7 @@ header {
   text-align: center;
 }
 
-.active {
+.nav-item .active {
     text-decoration: underline;
 }
 
