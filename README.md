@@ -120,12 +120,12 @@ Upon completion of the writing process, developer used [W3C Css Validation Servi
 Some errors were detected at first, but fixed by the developer. For example, when checking HTML code, the validator warned about a paragraph used as a list item in header. 
 It was fixed by adding li tags around that paragraph.
 
-![Screenshot of Home page validation result](https://github.com/irasan/MP1-beauty-salon/blob/229bc0d4c95823a393bdbce6d6b59c78ae54386b/assets/Validator%20screenshots/home-validated.png)
+![Screenshot of Home page validation result](https://github.com/irasan/MP1-beauty-salon/blob/master/assets/validator-screenshots/home-validated.png)
 
 
 CSS validator found some lines of code that were not used, that's why they were removed completely by the developer.
 
-![Screenshot of CSS validation result](https://github.com/irasan/MP1-beauty-salon/blob/229bc0d4c95823a393bdbce6d6b59c78ae54386b/assets/Validator%20screenshots/css-validated.png)
+![Screenshot of CSS validation result](https://github.com/irasan/MP1-beauty-salon/blob/master/assets/validator-screenshots/css-validated.png)
 
 ### Client Stories Testing
 Most common path through the website:
