@@ -23,14 +23,13 @@ body {
   font-family: "Montserrat", serif;
 }
 
-/* --------------------------- Special margins/text */
+/* --------------------------- Special margins/text/buttons */
 h1,
 h2,
 h3,
 h4 {
   margin: 0;
-  font-family: "Italiana", serif;
-  letter-spacing: 1px;
+  font-family: "Raleway", serif;
 }
 
 .inline-block {
@@ -43,6 +42,16 @@ hr {
   margin: 0 auto;
 }
 
+.action-button {
+    background-color: #042920;
+    color: #ffd66e;
+}
+
+.light-button {
+    background-color: #ffd66e;
+    color: #042920;
+}
+
 /* --------------------------- Header */
 header {
   font-family: "Montserrat", serif !important;
@@ -52,7 +61,7 @@ header {
 
 .navbar-brand {
   font-size: 26px;
-  font-family: "Italiana", serif;
+  font-family: "Raleway", serif;
   color: #111;
   text-align: center;
 }
@@ -320,7 +329,7 @@ footer {
 
 .bg-color-green table {
   background-color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .jumbotron {
@@ -358,12 +367,12 @@ footer {
 
   .image-overlay__item--top h2 {
     padding-bottom: 20px;
-    font-size: 2.8vw;
+    font-size: 2.4vw;
   }
 
   .image-overlay__item--top p {
     padding-bottom: 20px;
-    font-size: 1.8vw;
+    font-size: 1.4vw;
   }
 
   .image-overlay__item--medium {
@@ -387,6 +396,8 @@ footer {
   #bottom-image {
     border: 5px solid #daa520;
   }
+
+
 
   .black-section {
 text-align: center;

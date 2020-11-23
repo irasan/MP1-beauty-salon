@@ -2,6 +2,12 @@
 
 This is a simple yet elegant website for a fictional beauty salon. 
 
+![Home page of the Beauty Salon website](https://github.com/irasan/MP1-beauty-salon/blob/master/assets/website-screenshots/home-page.png)
+
+![Team page](https://github.com/irasan/MP1-beauty-salon/blob/master/assets/website-screenshots/team-page.png)
+
+![Contact page](https://github.com/irasan/MP1-beauty-salon/blob/master/assets/website-screenshots/contact-page.png)
+
 ## UX
 
 ### Project goals
@@ -58,9 +64,9 @@ As a return client of the salon, I want:
 The overall feel of the website is one that shows luxury and high professionalism. The following design choices were made with this in mind:
 
 #### Fonts
-Font [Italiana](https://fonts.google.com/specimen/Italiana?sidebar.open=true&selection.family=Italiana|Montserrat:wght@100;200;300;400;500;600;700|Raleway:wght@100;200;300;400;500;600;700&preview.text=&preview.text_type=custom&query=italiana#standard-styles) was chosen for headings as its elegance and sophistication reminds of fashion magazins style.
+Font [Italiana](https://fonts.google.com/specimen/Italiana) was chosen for headings as its elegance and sophistication reminds of fashion magazins style.
 For more readability, letter spacing of 1px was added to this font.
-Main font of the website is [Montsserat](https://fonts.google.com/specimen/Montserrat?sidebar.open=true&selection.family=Italiana|Montserrat:wght@100;200;300;400;500;600;700|Raleway:wght@100;200;300;400;500;600;700&preview.text=&preview.text_type=custom&query=monts). It is very clear, light, and easy to read font with a little quirky twist. 
+Main font of the website is [Montsserat](https://fonts.google.com/specimen/Montserrat). It is very clear, light, and easy to read font with a little quirky twist. 
 
 #### Icons
 All icons were chosen for their obvious meaning so that they can be easily understood by everyone.
@@ -157,13 +163,15 @@ As a return client of the salon, I want to find a name of the stylist who treate
 * Team page shows pictures of all stylists who work in the salon and their names and stories.
 
 ### Testing on Different Browsers and Devices
-The website was tested on the different browsers and proved to be issue-free. Those browsers include:
+The website was tested on different browsers and proved to be issue-free on the following browsers:
 * Chrome;
 * Safari;
-* Edge;
-* Firefox.
+* Edge.
 
-The website was also tested on an IOS (Iphone 10) and Android (Pixel 4) platforms.
+On Firefox the carousel of pictures on Home page isn't automatically sliding, but allows to slide manually. This issue is well-known 
+
+The website was also tested on an IOS (Iphone 10) and Android (Pixel 4) platforms. Font Italiana gets unreadable on small screens even with increased letter spacing.
+That's why developer decided to change this font to [Raleway](https://fonts.google.com/specimen/Raleway).
 
 ### Testing on Potential Website Visitors 
 A group of potential website visitors were invited to test the website on their phones and laptops. The users were in the age gap between 30 and 65 years old.
