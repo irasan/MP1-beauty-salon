@@ -16,7 +16,7 @@
 }
 
 .bg-color-black {
-    background-color: #111;
+  background-color: #111;
 }
 
 body {
@@ -43,13 +43,13 @@ hr {
 }
 
 .action-button {
-    background-color: #042920;
-    color: #ffd66e;
+  background-color: #042920;
+  color: #ffd66e;
 }
 
 .light-button {
-    background-color: #ffd66e;
-    color: #042920;
+  background-color: #ffd66e;
+  color: #042920;
 }
 
 /* --------------------------- Header */
@@ -67,7 +67,7 @@ header {
 }
 
 .nav-item .active {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -87,7 +87,6 @@ header {
 
 .navbar-light .navbar-toggler {
   border-color: transparent;
-
 }
 
 .navbar-toggler:focus,
@@ -99,20 +98,20 @@ header {
 
 /* --------------------------- Greeting */
 .black-section {
-text-align: center;
-color: #ffd66e;
-font-size: 18px;
-padding: 20px 30px;
+  text-align: center;
+  color: #ffd66e;
+  font-size: 18px;
+  padding: 20px 30px;
 }
 
 .black-section h1 {
- color: #daa520;
+  color: #daa520;
   text-shadow: 2px 4px 3px #080808;
   padding: 20px 0;
 }
 
 .black-section hr {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* --------------------------- How to find us (contact section)*/
@@ -397,14 +396,12 @@ footer {
     border: 5px solid #daa520;
   }
 
-
-
   .black-section {
-text-align: center;
-color: #ffd66e;
-font-size: 24px;
-padding: 40px 100px;
-}
+    text-align: center;
+    color: #ffd66e;
+    font-size: 24px;
+    padding: 40px 100px;
+  }
 }
 
 /* --------------------------- Different screens */

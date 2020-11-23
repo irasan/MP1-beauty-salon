@@ -120,7 +120,12 @@ Upon completion of the writing process, developer used [W3C Css Validation Servi
 Some errors were detected at first, but fixed by the developer. For example, when checking HTML code, the validator warned about a paragraph used as a list item in header. 
 It was fixed by adding li tags around that paragraph.
 
+![Screenshot of Home page validation result](https://github.com/irasan/MP1-beauty-salon/blob/229bc0d4c95823a393bdbce6d6b59c78ae54386b/assets/Validator%20screenshots/Home-validated.png)
+
+
 CSS validator found some lines of code that were not used, that's why they were removed completely by the developer.
+
+![Screenshot of CSS validation result](https://github.com/irasan/MP1-beauty-salon/blob/229bc0d4c95823a393bdbce6d6b59c78ae54386b/assets/Validator%20screenshots/CSS-validated.png)
 
 ### Client Stories Testing
 Most common path through the website:
@@ -168,15 +173,15 @@ The website was tested on different browsers and proved to be issue-free on the 
 * Safari;
 * Edge.
 
-On Firefox the carousel of pictures on Home page isn't automatically sliding, but allows to slide manually. This issue is well-known 
+On Firefox the carousel of pictures on Home page isn't automatically sliding, but allows to slide manually. This issue wasn't fixed. 
 
-The website was also tested on an IOS (Iphone 10) and Android (Pixel 4) platforms. Font Italiana gets unreadable on small screens even with increased letter spacing.
+The website was also tested on an IOS (Iphone 10) and Android (Pixel 4) platforms. Font Italiana that was the first choice for headings, gets very difficult to read on small screens even with increased letter spacing.
 That's why developer decided to change this font to [Raleway](https://fonts.google.com/specimen/Raleway).
 
 ### Testing on Potential Website Visitors 
 A group of potential website visitors were invited to test the website on their phones and laptops. The users were in the age gap between 30 and 65 years old.
 The feedback regarding usability was very positive. However a few users pointed out that the colors chosen for the website weren't exactly matching a beauty salon style. 
-They suggested different options fom pastel to grey and purple combinations. 
+They suggested different options fom pastel to grey and purple combinations. Different color pallete will be considered for future development.
 
 
 ## How To Run This Project Locally
