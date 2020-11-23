@@ -8,7 +8,8 @@ This is a simple yet elegant website for a fictional beauty salon.
 The primary goal of the project is to present a beauty salon to their potential customers and help current customers find the needed information for their booking and visit. 
 
 ### Customers' goals
-The main audience for this website consists of women in the age of 16-65 years old, and men in the age of 22-65 years old. These are people who like to look after themselves and avail of the wide range of beauty procedures.
+The main audience for this website consists of women in the age of 16-65 years old, and men in the age of 22-65 years old. 
+These are people who like to look after themselves and avail of the wide range of beauty procedures.
 
 Customers goals are:
 * find information about location and contact details of the salon;
@@ -53,12 +54,15 @@ As a return client of the salon, I want:
 * to be able to find salon's address easily;
 * to find a name of the stylist who treated me before.
 
+As a business owner:
+
 ### Design choices
 The overall feel of the website is one that shows luxury and high professionalism. The following design choices were made with this in mind:
 
 #### Fonts
 Font [Italiana](https://fonts.google.com/specimen/Italiana?sidebar.open=true&selection.family=Italiana|Montserrat:wght@100;200;300;400;500;600;700|Raleway:wght@100;200;300;400;500;600;700&preview.text=&preview.text_type=custom&query=italiana#standard-styles) was chosen for headings as its elegance and sophistication reminds of fashion magazins style.
-Main font of the website is [Montsserat](https://fonts.google.com/specimen/Montserrat?sidebar.open=true&selection.family=Italiana|Montserrat:wght@100;200;300;400;500;600;700|Raleway:wght@100;200;300;400;500;600;700&preview.text=&preview.text_type=custom&query=monts). It is very clear, light, and easy to read font that allows to use 
+For more readability, letter spacing of 1px was added to this font.
+Main font of the website is [Montsserat](https://fonts.google.com/specimen/Montserrat?sidebar.open=true&selection.family=Italiana|Montserrat:wght@100;200;300;400;500;600;700|Raleway:wght@100;200;300;400;500;600;700&preview.text=&preview.text_type=custom&query=monts). It is very clear, light, and easy to read font with a little quirky twist. 
 
 #### Icons
 All icons were chosen for their obvious meaning so that they can be easily understood by everyone.
@@ -67,7 +71,7 @@ All icons were chosen for their obvious meaning so that they can be easily under
 Dark esmerald, gold and black colors were chosen for their feel of luxury. Some components, eg text or buttons, may differ in the shade, but the colors remain the same.
 
 #### Styling
-Buttons and form fields were given rounded corners to soften the strictness, however they don't look to rounded so that the feel of the website remains luxury, not play.
+Buttons and form fields were given rounded corners to soften the strictness, however they don't look to0 rounded so that the feel of the website remains luxury, not play.
 
 
 
