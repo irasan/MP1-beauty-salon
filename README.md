@@ -1,6 +1,6 @@
 # Beauty Salon
 
-This is a simple yet elegant website for a fictional beauty salon. 
+This is a simple yet elegant website for a fictional beauty salon. Live version [here](https://irasan.github.io/MP1-beauty-salon/)
 
 ![Home page of the Beauty Salon website](https://github.com/irasan/MP1-beauty-salon/blob/master/assets/website-screenshots/home-page.png)
 
